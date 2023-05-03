@@ -6,20 +6,13 @@ class ProductTag extends Model {}
 
 ProductTag.init(
   {
-//     id
+
     id: {
       type:DataTypes.INTEGER,
       allowNull:false,
       primaryKey:true,
       autoIncrement: true
     }
-// Integer.
-
-// Doesn't allow null values.
-
-// Set as primary key.
-
-// Uses auto increment.
 
 // product_id
 
